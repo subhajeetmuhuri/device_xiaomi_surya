@@ -1,0 +1,6 @@
+on boot
+    chown system system /sys/devices/platform/soc/soc:fpc1020/proximity_state
+    chmod 0660 /sys/devices/platform/soc/soc:fpc1020/proximity_state
+    chown system system /sys/devices/platform/soc/soc:goodix_fp/proximity_state
+    chmod 0660 /sys/devices/platform/soc/soc:goodix_fp/proximity_state
+

@@ -324,6 +324,13 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_PACKAGES += \
     libqti-perfd-client
 
+# Pocket mode
+PRODUCT_PACKAGES += \
+    XiaomiPocketMode
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/pocketmode/init.xiaomipocketmode.rc:$(TARGET_COPY_OUT_PRODUCT)/etc/init/init.xiaomipocketmode.rc
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service.xiaomi-libperfmgr

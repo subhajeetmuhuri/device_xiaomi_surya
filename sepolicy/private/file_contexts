@@ -1,0 +1,3 @@
+# Fingerprint
+/sys/devices/platform/soc/soc:fpc1020/proximity_state                       u:object_r:sysfs_fps_proximity:s0
+/sys/devices/platform/soc/soc:goodix_fp/proximity_state                     u:object_r:sysfs_fps_proximity:s0
