@@ -1,3 +1,0 @@
-type sysfs_fps_proximity, sysfs_type, fs_type;
-
-allow system_app sysfs_fps_proximity:file rw_file_perms;
