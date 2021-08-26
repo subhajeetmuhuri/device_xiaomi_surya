@@ -10,6 +10,7 @@ allow xiaomiparts_app {
     audioserver_service
     autofill_service
     gpu_service
+    media_session_service
     mediaserver_service
     surfaceflinger_service
     tethering_service
